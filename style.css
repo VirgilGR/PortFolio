@@ -1,0 +1,140 @@
+html, body{
+    background-color: lightblue;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    height: 7.5vh;
+}
+
+#menu h4{
+    font-size: 1.5rem;
+    padding-left: 2vw;
+}
+
+#menu #premier{
+    padding-left: 55vw;
+}
+
+#menu a{
+    padding: 0vh 1vw 0vh 1vw;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+}
+
+
+
+#propos{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10vw;
+    margin-left: 10vw;
+}
+
+#propos img{
+    width: 15vw;
+    padding-right: 5vw;
+
+}
+
+#propos p{
+    width: 55vw;
+}
+
+
+
+#competences{
+    margin: 50vh 0vw 50vh 0vw;
+    padding-top: 2vh;
+    background-color: white;
+    
+}
+
+#liste{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+}
+
+
+#creations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#creations img{
+    width: 50vw;
+    border: dotted 0.7vw white;
+    margin: 1vh 0vw 1vh 0vw;
+}
+
+#creations img:hover{
+    opacity: 0.5;
+}
+
+
+
+#contact{
+    margin: 25vh 0vw 0vh 0vw;
+}
+
+#contact p{
+    display: inline;
+    margin: 0 3rem 0 3rem;
+    font-size: 1.5rem;
+}
+
+#contact span{
+    text-decoration: underline;
+}
+
+
+
+
+
+article{
+    padding-top: 4vh;
+}
+
+#moi{
+    margin: 25vh 0vw 0vw 10vw;
+
+}
+
+body{
+    display: none;
+}
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+footer a{
+    font-size: 2rem;
+}
+
+
+
