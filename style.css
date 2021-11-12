@@ -78,6 +78,9 @@ a:visited{
 
 
 
+
+
+
 #contact{
     margin: 25vh 0vw 0vh 0vw;
 }
@@ -120,6 +123,28 @@ h1{
 footer a{
     font-size: 2rem;
 }
+
+/**{
+webkit-box-sizing: border-box;
+moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#bloc{
+margin:0 auto;
+width: 30vw;
+height: 40vh;
+text-align:center;
+}
+#bloc #bouton{
+width: 30vw;
+height: 40vh;
+border: dotted 0.7vw white;
+}
+
+#prev, #next{
+    width: 2vw;
+}*/
 
 body {
     font-family: Verdana, sans-serif; margin:0;
