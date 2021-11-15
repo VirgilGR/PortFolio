@@ -1,0 +1,292 @@
+html, body{
+    background-color: lightblue;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-image: url("fond.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#menu{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.5vh;
+}
+
+
+
+#menu img{
+    padding-left: 2vw;
+    width: 4vw;
+}
+
+
+#menu a{
+    padding: 0vh 1vw 0vh 1vw;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+
+a:visited{
+    color:  red;
+}
+
+
+
+#propos{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10vw;
+    margin-left: 10vw;
+}
+
+#propos img{
+    width: 15vw;
+    padding-right: 5vw;
+
+}
+
+
+
+
+#competences{
+    margin: 50vh 0vw 50vh 0vw;
+    padding-top: 2vh;
+    background-color: white;
+    color:  black;
+    
+}
+
+#liste{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+#contact{
+    margin: 25vh 0vw 0vh 0vw;
+}
+
+#contact p{
+    display: inline;
+    margin: 0 3rem 0 3rem;
+    font-size: 1.5rem;
+}
+
+#contact span{
+    text-decoration: underline;
+}
+
+
+
+
+
+article{
+    padding-top: 4vh;
+}
+
+body{
+    display: none;
+}
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+footer a{
+    font-size: 2rem;
+}
+
+/**{
+webkit-box-sizing: border-box;
+moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#bloc{
+margin:0 auto;
+width: 30vw;
+height: 40vh;
+text-align:center;
+}
+#bloc #bouton{
+width: 30vw;
+height: 40vh;
+border: dotted 0.7vw white;
+}
+
+#prev, #next{
+    width: 2vw;
+}*/
+
+
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 75vw;
+  max-height: 85vh;
+  position: relative;
+  margin: auto;
+  border: dotted 0.75vw white;
+}
+
+.slideshow-container img:hover{
+    animation-name:  opacite;
+    animation-duration: 2s;
+}
+
+@keyframes opacite{
+    from {opacity: 1;}
+    to {opacity: 0.7;}
+    
+}
+
+.slideshow-container img{
+    width: 75vw;
+    max-height: 85vh;
+}
+
+.slideshow-container p:hover{
+    animation-name: test;
+    animation-duration: 4s;
+}
+    
+
+@keyframes test{
+    from {color: black;}
+    to {color: red;}
+    
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40vh;
+  width: auto;
+  padding: 1vw;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 1s ease;
+  border-radius: 0 0.5vw 0.5vw 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.5vw 0 0 0.5vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 2rem;
+  padding: 0.8vh 1vw;
+  position: absolute;
+  bottom: 0.8vh;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 2rem;
+  padding: 0.8vh 1vw;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.25vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+/*  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;*/
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 0.75rem}
+}
+
+
+@media screen and (max-width:  820px){
+
+    p{
+        font-size: 0.75rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    
+
+}
