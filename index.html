@@ -26,6 +26,26 @@
 
 </div>
 
+
+
+
+
+<div class="topnav">
+  <img src="logo.jpg" alt="Logo" >
+
+  <div id="myLinks">
+    <a id="premier" href="#propos2">A propos</a>
+    <a href="#competences">Mes compétences</a>
+    <a href="#creations">Mes créations</a>
+    <a href="#contact">Me contacter</a>
+    <a href="#menu">Remonter en haut de la page</a>
+  </div>
+
+  <a class="icon">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
   
   <div id="propos2">
 
@@ -56,19 +76,28 @@
   <br>
     
 
-    <div id="competences"> 
+    <div class="appear" data-delai="0" id="competences"> 
       <h1>Mes Compétences</h1>
         <div id="liste">
-          <li><p><br>Première Pro</p>
-          <p>After Effect</p></li>
+
+          <li id="liste_camera">
+            <img src="camera.png" alt="Camera">
+            <p><br>Première Pro</p>
+          <p>After Effect</p>
+          <p>Tournage</p></li>
 
 
-          <li><p><br>jQuery</p>
+          <li id="liste_code">
+            <img src="code.png" alt="Code">
+            <p><br>jQuery</p>
           <p>HTML</p>
-          <p>CSS</p></li>
+          <p>CSS</p>
+          </li>
 
 
-        <li><p><br>Photoshop</p>
+        <li id="liste_info">
+          <img src="plume_illustrator.png" alt="Plume Illustrator">
+          <p><br>Photoshop</p>
           <p>Illustrator</p>
           <p>Blender</p></li>
       </div>
@@ -76,7 +105,7 @@
 
 
 
-<div id="creations">
+<div class="appear" data-delai="0" id="creations">
   <h1>Mes Créations</h1>
 
   <div class="slideshow-container">
@@ -118,20 +147,18 @@
 
   <footer id="contact" >
     <h1>Contact</h1><br>
-    <p>E-MAIL : <a href="mailto:grebovalvirgil@gmail.com">grebovalvirgil@gmail.com</a></p>
-    <p>Numéro de téléphone : <span>07.62.37.84.09</span></p><br>
-    <a href="https://www.instagram.com/virgilgbl/" target="_blank"><p>Instagram</p></a><br>
+    <div id="lien_contact">
+      <a href="mailto:grebovalvirgil@gmail.com" target="_blank">E-MAIL</a>
+      <p id="tel">Numéro de téléphone <span> : 07.62.37.84.09</span></p>
+      <a href="https://www.linkedin.com/in/virgil-greboval-61a729221/" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/virgilgbl/" target="_blank">Instagram</a>
+    </div>
   </footer>
 
-      
 
 
 
 
-
-  
-
-</div>
 
 
 
