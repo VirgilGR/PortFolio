@@ -447,6 +447,10 @@ img {
         text-decoration: underline;
     }
 
+    #competences{
+    margin: 10vh 0vw 10vh 0vw;
+    }
+
 
 
 
@@ -459,13 +463,26 @@ img {
         font-size: 0.75rem;
     }
 
+    #propos{
+        font-size: 1rem;
+    }
+
     .topnav{
         z-index: 1;
+    }
+
+    #competences{
+    margin: 10vh 0vw 10vh 0vw;
     }
 
     .topnav #myLinks{
         font-size: 0.5rem;
     }
+
+    #contact p, #contact a{
+    font-size: 1rem;
+    }
+
 
 
 }

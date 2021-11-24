@@ -196,3 +196,86 @@ h1{
 }
 
 
+@media screen and (orientation : portrait) and (max-width :820px){
+
+    body{
+        font-size: 0.75rem;
+    }
+
+    p{
+        font-size: 0.75rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+
+    .topnav, .topnav #myLinks{
+        display: block;
+        min-width: 15vw;
+    }
+
+    .topnav img{
+        width: 6vw;
+    }
+
+    .topnav{
+        z-index: 1;
+    }
+
+    .topnav #myLinks{
+        font-size: 1rem;
+    }
+
+
+
+    #menu{
+      display: none;
+
+    }
+
+    #creations{
+        font-size: 1rem;
+    }
+
+
+
+@media screen and (max-width: 820px){
+
+    body{
+        font-size: 0.75rem;
+    }
+
+
+
+    .topnav{
+        z-index: 1;
+    }
+
+    #generique p, #film_noir p, #documentaire p{
+        font-size: 0.75rem;
+    }
+
+
+    .topnav #myLinks{
+        font-size: 0.5rem;
+    }
+
+
+
+    #toucan p, #gursimrat p, #vieux p{
+    font-size: 0.75rem;
+}
+
+#toucan, #gursimrat, #vieux{
+    margin-top: 10vh;
+
+}
+
+
+
+
+
+
+}
