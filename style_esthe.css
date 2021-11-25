@@ -133,8 +133,11 @@ a:hover{
     margin-top: 40vh;
 }
 
-#masque a{
-    margin: 3vw 2vh 3vw 2vh;
+#masque #masque_image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #masque img{
