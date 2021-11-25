@@ -130,10 +130,11 @@ a:hover{
 
 
 #masque{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-top: 40vh;
+}
+
+#masque a{
+    margin: 3vw 2vh 3vw 2vh;
 }
 
 #masque img{
@@ -220,6 +221,12 @@ footer a{
     #creations{
         font-size: 1rem;
     }
+
+    #masque img{
+        height: 30vh;
+    }
+    
+}
 
 
 
