@@ -391,11 +391,11 @@ img {
 @media screen and (orientation : portrait){
 
     body{
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     p{
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     h1{
