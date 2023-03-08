@@ -391,15 +391,15 @@ img {
 @media screen and (orientation : portrait){
 
     body{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     p{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     h1{
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     #competences{
@@ -407,11 +407,11 @@ img {
     }
 
     .numbertext, .text {
-  font-size: 1vw;
+  font-size: 2vw;
     }
 
     #lien_contact a, #lien_contact p{
-    font-size: 1vw;
+    font-size: 2vw;
     margin-left: 3vw;
     }
 
